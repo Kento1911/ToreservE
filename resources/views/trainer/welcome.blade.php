@@ -53,9 +53,9 @@
                     <div class="flex flex-col justify-center items-center md:w-2/3">
                         <div class="bg-gray-800 bg-opacity-75 p-6">
                             <div class="text-white font-serif text-5xl text-center">
-                                Torematch
+                                ToreservE
                             </div>
-                            <p class="text-white text-md mt-5">Torematchはパーソナルトレーナーの為の無料予約サイトです</p>
+                            <p class="text-white text-md mt-5">ToreservEはパーソナルトレーナーの為の無料予約サイトです</p>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                             <div class="h-1 w-20 bg-indigo-500 rounded"></div>
                         </div>
                         <div class="whitespace-pre-line -mt-8 md:mt-8">
-                            <p class="w-full leading-relaxed text-gray-500">Torematchへの登録は、無料且つシンプルです。 </p>
+                            <p class="w-full leading-relaxed text-gray-500">ToreservEへの登録は、無料且つシンプルです。 </p>
                             <p class="w-full leading-relaxed text-gray-500 -mt-4">あなたも登録し、トレーニングの指導をしましょう!</p>
                         </div>
                     </div>

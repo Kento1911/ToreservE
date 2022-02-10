@@ -49,8 +49,8 @@
         <div class="container px-5 py-2 mx-auto">
             <div class="flex flex-col text-center w-full mb-4 md:mb-24">
                 <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">トレマッチとは</h2>
-                <h1 class="sm:text-3xl text-2xl font-serif font-medium title-font mb-4 text-gray-900">Torematch</h1>
-                <p class="lg:w-auto mx-auto leading-loose text-justify">Torematch(トレマッチ)は、あなたにピッタリなパーソナルトレーナを探せるマッチングサイトです。</p>
+                <h1 class="sm:text-3xl text-2xl font-serif font-medium title-font mb-4 text-gray-900">ToreservE</h1>
+                <p class="lg:w-auto mx-auto leading-loose text-justify">Toreserve(トレザーブ)は、あなたにピッタリなパーソナルトレーナを探せるマッチングサイトです。</p>
                 <p class="lg:w-auto mx-auto leading-loose text-justify">さあ、今すぐあなたもパーソナルトレーナーを探し、一緒に自分を高めましょう!</p>
             </div>
         </div>
@@ -58,7 +58,7 @@
     <section class="text-gray-600 body-font mt-5">
         <div class="px-5mx-auto">
             <div class="flex flex-col text-center w-full mb-1">
-                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Torematchのここがすごい</h2>
+                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ToreservEのここがすごい</h2>
             </div>
             <div class="flex flex-wrap">
                 <div class="xl:w-1/3 lg:w-1/3 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
@@ -105,7 +105,7 @@
                     </div>
                     <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                         <a href="{{ route('trainer.welcome') }}" class="p-5 hover:text-blue-400">トレーナーの方はこちらから</a>
-                        <p class="text-indigo-500 mb-2">Torematch@email.com</p>
+                        <p class="text-indigo-500 mb-2">ToreservE@email.com</p>
                         <span class="inline-flex">
                         <a class="text-gray-500">
                             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

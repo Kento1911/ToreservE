@@ -15,8 +15,8 @@ class ContactController extends Controller
 
         $to = [
             [
-                'email' => 'torematch00@gmail.com', 
-                'name' => 'Torematch',
+                'email' => 'toreserve00@gmail.com', 
+                'name' => 'Toreserve',
             ]
         ];
     
