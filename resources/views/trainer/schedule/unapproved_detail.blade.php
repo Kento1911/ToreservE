@@ -136,7 +136,7 @@
                         <form method="POST" action="{{ route('trainer.schedule.cancel',['schedule' => $schedule]) }}">
                             @csrf
                             <div class="flex md:flex-row justify-center justify-items-center md:mt-4 md:py-3 mt-5 ">
-                                <a href="{{ route('trainer.schedule.contact_form',['schedule' => $schedule]) }}" class="block bg-white text-teal-600 border border-teal-600 md:py-3 md:px-6 py-3 px-4 rounded-lg font-bold hover:bg-teal-100 mr-3">承諾</a>
+                                <a href="{{ route('trainer.schedule.approve_form',['schedule' => $schedule]) }}" class="block bg-white text-teal-600 border border-teal-600 md:py-3 md:px-6 py-3 px-4 rounded-lg font-bold hover:bg-teal-100 mr-3">承諾</a>
                                 <button type="button" @click="open_cancel = true" class="bg-red-500 text-white py-3 px-6 rounded-lg font-bold hover:bg-red-300 mr-3 md:mr-10">削除</button>
                             </div>
                             <div class="fixed  bottom-0 left-0 w-full flex min-h-screen items-center justify-center" style="background-color: rgba(0,0,0,.5);" x-show="open_cancel" x-cloak>

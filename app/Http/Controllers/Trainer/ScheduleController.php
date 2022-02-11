@@ -65,6 +65,12 @@ class ScheduleController extends Controller
 
         $schedule = Schedule::with('user','plan','time','area')->where('id',$schedule->id)->first();
 
+        $today_schedule = Schedule::where([['date',$schedule->date],['trainer_id',$schedule->trainer_id],['time_id',$schedule->time_id],['state_flg',3]])->first();
+        if(!is_null($today_schedule)){
+            $message = '※同時刻に予約があります';
+            return view('trainer.schedule.approve_form',compact('schedule','message'));
+        }
+
         return view('trainer.schedule.approve_form',compact('schedule'));
     }
 
