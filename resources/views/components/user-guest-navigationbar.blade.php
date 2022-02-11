@@ -12,7 +12,6 @@
                         <a href="{{ route('user.schedule.top') }}" class="p-5 hover:text-gray-600 hover:border-b-4 border-white-500 target:border-b-4 border-white-500">予約一覧</a>
                         <a href="{{ route('user.schedule.unapproved') }}" class="p-5 hover:text-gray-600 hover:border-b-4 border-white-500">未確定予約</a>
                         <a href="{{ route('user.record.top') }}" class="p-5 hover:text-gray-600 hover:border-b-4 border-white-500">トレーニング履歴</a>
-                        <a href="#" class="p-5 hover:text-gray-600 hover:border-b-4 border-white-500">プロフィール</a>
                         <form class="inline" method="POST" action="{{ route('user.logout') }}">
                             @csrf
                             <a :href="{{ route('user.logout') }}" onclick="event.preventDefault(); this.closest('form').submit();" class="p-5 hover:text-gray-600 text-red-600 font-semibold cursor-pointer">ログアウト</a>
@@ -32,7 +31,6 @@
                     <a href="{{ route('user.schedule.top') }}" class="block p-4 hover:bg-gray-400">スケジュール</a>
                     <a href="{{ route('user.schedule.unapproved') }}" class="block p-4 hover:bg-gray-400">予約履歴</a>
                     <a href="{{ route('user.record.top') }}" class="block p-4 hover:bg-gray-400">トレーニング履歴</a>
-                    <a href="" class="block p-4 hover:bg-gray-400">プロフィール</a>
                     <form class="block p-4" method="POST" action="{{ route('user.logout') }}">
                         @csrf
                         <a :href="{{ route('user.logout') }}" onclick="event.preventDefault(); this.closest('form').submit();" class="p-5 hover:text-gray-600 text-red-600 font-semibold cursor-pointer">ログアウト</a>
