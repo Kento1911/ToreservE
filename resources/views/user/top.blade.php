@@ -48,7 +48,7 @@
     <section class="text-gray-600 body-font border-b">
         <div class="container px-5 py-2 mx-auto">
             <div class="flex flex-col text-center w-full mb-4 md:mb-24">
-                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">トレマッチとは</h2>
+                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">トレザーブとは</h2>
                 <h1 class="sm:text-3xl text-2xl font-serif font-medium title-font mb-4 text-gray-900">ToreservE</h1>
                 <p class="lg:w-auto mx-auto leading-loose text-justify">Toreserve(トレザーブ)は、あなたにピッタリなパーソナルトレーナを探せるマッチングサイトです。</p>
                 <p class="lg:w-auto mx-auto leading-loose text-justify">さあ、今すぐあなたもパーソナルトレーナーを探し、一緒に自分を高めましょう!</p>
