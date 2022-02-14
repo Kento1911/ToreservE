@@ -58,6 +58,12 @@ $ php artisan key:generate
 $ php artisan config:clear
 ```
 
+## 4.シンボリックリンクの作成とディレクトリの作成
+```
+$ php artisan storage:link
+$ cd /storage/app/public
+$ mkdir trainer
+```
 
 # 環境
 * php8.0.12
