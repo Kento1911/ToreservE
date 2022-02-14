@@ -1,4 +1,4 @@
-# Name（TOreservE）
+# Name（ToreservE）
 
 パーソナルトレーナーの為のマッチング＆予約サイト
 
@@ -29,11 +29,11 @@
 #### mail・password によるログインで利用可能
 #### デモログイン
 - user
- - email:user1@gmail.com
- - pass:testtest
+    - email:user1@gmail.com
+    - pass:testtest
 - trainer
- - email:trainer1@gmail.com
- - pass:testtest
+    - email:trainer1@gmail.com
+    - pass:testtest
 
 ## ユーザー
 1. 自分にマッチするトレーナーを見つける。
