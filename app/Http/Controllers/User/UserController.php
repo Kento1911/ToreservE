@@ -26,7 +26,7 @@ class UserController extends Controller
         $types = Type::all();
         $areas = Area::all();
 
-        return view('User.top',compact('types','areas'));
+        return view('user.top',compact('types','areas'));
     }
 
     /**
