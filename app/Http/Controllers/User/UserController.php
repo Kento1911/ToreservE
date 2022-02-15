@@ -69,8 +69,6 @@ class UserController extends Controller
         }else{
             $trainers = TrainerProfile::with('Plan')->paginate(15);
         }
-
-        $request->session()->regenerateToken();
         
         return view('user.search',compact('trainers'));
     }
