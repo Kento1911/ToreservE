@@ -41,7 +41,7 @@
         @endforeach
         @else
         <div class="text-center font-bold text-gray-800 h-screen">
-            該当のトレーナーはいません。
+            該当のトレーナーはいません
         </div>
         @endif
         </section>
