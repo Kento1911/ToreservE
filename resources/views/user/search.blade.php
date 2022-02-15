@@ -1,8 +1,8 @@
 <x-guest-layout>
     <x-user-guest-navigationbar />
-    
     <main class="bg-gray-200 lg:container mx-auto">
         <section class="px-4 md:px-0 pt-32 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 ">
+        @if(!$trainers->isEmpty())
         @foreach($trainers as $trainer)
             <div class="grid justify-items-center bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
                 <div class="mt-3 px-2 flex justify-center h-52">
@@ -39,6 +39,11 @@
                 </div>
             </div>
         @endforeach
+        @else
+        <div class="text-center font-bold text-gray-800 h-screen">
+            該当のトレーナーはいません
+        </div>
+        @endif
         </section>
         <div>
             {{ $trainers->links() }}
