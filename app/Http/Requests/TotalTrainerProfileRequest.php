@@ -41,12 +41,12 @@ class TotalTrainerProfileRequest extends FormRequest
     {
         return [
         "required" => "必須項目が未入力です。",
-        "image" => "指定されたファイルが画像ではありません。",
-        "mines" => "指定された拡張子(PNG/JPG/JPEG)ではありません。",
+        "profile_image.image" => "指定されたファイルが画像ではありません。",
+        "profile_image.mines" => "指定された拡張子(PNG/JPG/JPEG)ではありません。",
         "profile_iamge.max" => "10MBを超えています。",
         "name.max" => "名前は最大20文字までです。" ,
         "age.between" =>"0〜100まで入力できます。",
-        "profile_comment" => "自己紹介は最大500文字以内です。",
+        "profile_comment.max" => "自己紹介は最大500文字以内です。",
         "plan_name.max:20" => "プラン名は最大20文字以内です。",
         "introduction.max:150" => "説明文は150文字以内です。",
         ];
