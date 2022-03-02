@@ -3,7 +3,7 @@
 パーソナルトレーナーの為のマッチング＆予約サイト
 
 # ToreservE
-<img width="1440" alt="トップ" src="https://user-images.githubusercontent.com/94818659/156314096-83d1ded3-7297-4c08-9f68-1cf89718206e.png">
+![](https://user-images.githubusercontent.com/94818659/156314096-83d1ded3-7297-4c08-9f68-1cf89718206e.png)
 
 # サイトURL
 
