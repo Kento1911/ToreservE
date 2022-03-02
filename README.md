@@ -1,6 +1,8 @@
 # Name（ToreservE）
 
 パーソナルトレーナーの為のマッチング＆予約サイト
+・ユーザー：　自分に合ったトレーナーを探して予約できる。
+・トレーナー：　オリジナルのプランを作成して、公開し活動できる。
 
 # ToreservE
 ![](https://user-images.githubusercontent.com/94818659/156314096-83d1ded3-7297-4c08-9f68-1cf89718206e.png)
