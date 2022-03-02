@@ -9,6 +9,7 @@
 ![](https://user-images.githubusercontent.com/94818659/156314096-83d1ded3-7297-4c08-9f68-1cf89718206e.png)
 
 ## トレーナー
+![](https://user-images.githubusercontent.com/94818659/156369379-9ffdc64d-6b3b-4a95-97a5-2a204d94de13.png)
 
 # サイトURL
 
