@@ -9,7 +9,8 @@
 
 # サイトURL
 
-[ToreservE](https://toreserve.net)
+- [ToreservE](https://toreserve.net)(ユーザー)
+- [ToreservE](https://toreserve.net/trainer)(ユーザー)
 
 # サイト説明
 ## トレーナー側
@@ -42,7 +43,7 @@
 - user
     - email:user1@gmail.com
     - pass:testtest
-- trainer(トレーナーの画面はtop画面下部にあります)
+- trainer(トレーナーの画面はtop画面下部にリンクがあります。)
     - email:trainer1@gmail.com
     - pass:testtest
 
