@@ -47,7 +47,7 @@
     - pass:testtest
 
 # ER図
-![](https://user-images.githubusercontent.com/94818659/156316121-de4bb33c-d5fe-4cf0-b30e-496dcaa426eb.png)
+![](https://user-images.githubusercontent.com/94818659/156321772-1078c1bf-ac6b-44de-9d59-8be8b1c648f4.png)
 
 
 # ダウンロード
