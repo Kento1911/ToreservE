@@ -46,6 +46,10 @@
     - email:trainer1@gmail.com
     - pass:testtest
 
+#ER図
+[](https://user-images.githubusercontent.com/94818659/156316121-de4bb33c-d5fe-4cf0-b30e-496dcaa426eb.png)
+
+
 # ダウンロード
 ## 1.git clone
 ```
