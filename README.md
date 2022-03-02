@@ -42,7 +42,7 @@
 - user
     - email:user1@gmail.com
     - pass:testtest
-- trainer
+- trainer(トレーナーの画面はtop画面下部にあります)
     - email:trainer1@gmail.com
     - pass:testtest
 
