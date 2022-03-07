@@ -81,5 +81,5 @@ $ mkdir trainer
 
 # 環境
 * php8.0.12
-* laravel9
+* laravel8
 * mysql8.0.27
