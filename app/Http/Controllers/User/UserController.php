@@ -50,9 +50,11 @@ class UserController extends Controller
                     ->where('area_id',$request->area);
             })->paginate(15);
 
+            return view('user.search',compact('trainers'));
+
         }elseif(!empty($request->type)){
 
-            $trainers = TrainerProfile::with('Plan')->where('id',function($query)use($request){
+            $trainers = TrainerProfile::with('Plan')->whereIn('id',function($query)use($request){
                 $query->from('trainer_types')
                     ->select('trainer_profile_id')
                     ->where('type_id',$request->type);
@@ -60,7 +62,7 @@ class UserController extends Controller
 
         }elseif(!empty($request->area)){
 
-            $trainers = TrainerProfile::with('Plan')->where('id',function($query)use($request){
+            $trainers = TrainerProfile::with('Plan')->whereIn('id',function($query)use($request){
                 $query->from('trainer_areas')
                     ->select('trainer_profile_id')
                     ->where('area_id',$request->area);
