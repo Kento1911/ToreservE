@@ -174,6 +174,7 @@ return [
         'comment'               => 'コメント',
         'menu'                  => 'メニュー',
         'feedback'              => 'フィードバック',
+        'introduction'          =>'説明文'
     ],
     
 ];

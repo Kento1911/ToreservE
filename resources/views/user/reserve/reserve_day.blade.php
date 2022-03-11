@@ -3,6 +3,15 @@
         <div class="bg-gray-200 ">
             <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-4 pt-28 md:pt-32 pb-8">
                 <div class="snap-always snap-center p-4 bg-white rounded-lg shadow-md">
+                    @if ($errors->any())
+                    <div class="p-4 mb-4 alert alert-danger mt-3 bg-red-100 text-red-600 rounded-lg">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    @endif
                     <div class="h-full p-6 rounded-lg border-2 border-teal-500 flex flex-col">
                         <h2 class="text-2xl tracking-widest title-font mb-1 font-medium">{{ $plan->plan_name }}</h2>
                         <h2 class="text-md tracking-widest title-font mb-1 font-medium">{{ $plan->time }} 分</h2>
@@ -12,6 +21,7 @@
                         </p>
                     </div>
                 </div>
+
                 <form method="POST" action="{{ route('user.reserve_confirm') }}">
                     @csrf
                     <div class="container mx-auto max-w-4xl bg-white rounded-lg mt-3 shadow-md">
@@ -37,7 +47,7 @@
                         </div>
                         <div class="mt-3 bg-white p-4 rounded-lg">
                             <label class="px-3 text-md text-left block" for="">何かご要望があれば、記入をお願い致します。<span class="text-sm text-red-500">(必須事項)</span></label>
-                            <textarea class="w-full border border-teal-500 rounded-lg focus:border-3 outline-none p-3" name="comment" id="" rows="10" placeholder="例:複数人(具体的な人数)で行いたい。〜のスタジオで行いたい等。" required></textarea>
+                            <textarea class="w-full border border-teal-500 rounded-lg focus:border-3 outline-none p-3" name="comment" id="" rows="10" placeholder="例:複数人(具体的な人数)で行いたい。〜のスタジオで行いたい等。"></textarea>
                         </div>
                     </div>
                     <div class="flex flex-row justify-center mt-4 py-3">
