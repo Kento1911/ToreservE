@@ -19,6 +19,15 @@
 
                     <form method="POST" action="{{ route('trainer.profile.store_plan',['profile' => $profile]) }}">
                         @csrf
+                        @if ($errors->any())
+                            <div class="p-4 mb-4 alert alert-danger mt-3 bg-red-100 text-red-600 rounded-lg">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
         
                         <div x-data="planAdd()"> 
                             <div class="grid grid-cols-1 mt-5 border-t border-gray-200">

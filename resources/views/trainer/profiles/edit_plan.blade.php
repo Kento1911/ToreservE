@@ -18,8 +18,7 @@
                     </div>
 
                     <form method="POST" action="{{ route('trainer.profile.update_plan',['plan' => $plan]) }}">
-                        @csrf
-        
+                        @csrf        
                             <div class="grid grid-cols-1 mt-5 border-t border-gray-200 px-3">
                                 <label class="mt-5 uppercase md:text-sm text-sm text-gray-500 text-light font-semibold">トレーニングタイプ</label>
                                 <input name="plan_name" class="py-2 px-3 rounded-lg border border-teal-600 mt-1 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent" type="text"  required value="{{ $plan->plan_name }}"/>
