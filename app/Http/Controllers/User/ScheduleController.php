@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\ScheduleCommentRequest;
 use App\Models\Schedule;
 use App\Models\ScheduleComment;
 use Illuminate\Http\Request;
@@ -95,7 +96,7 @@ class ScheduleController extends Controller
      * 
      * 
      */
-    public function contact(Request $request , Schedule $schedule)
+    public function contact(ScheduleCommentRequest $request , Schedule $schedule)
     {
         $this->authorize('user_contact',$schedule);
 

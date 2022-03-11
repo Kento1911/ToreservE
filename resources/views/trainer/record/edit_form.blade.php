@@ -7,6 +7,15 @@
                             @csrf
                             <div class="p-4 bg-white rounded-lg shadow-lg">
                                 <div class="text-center text-gray-700 text-xl font-bold text-tile mt-5">トレーニング記録</div>
+                                @if ($errors->any())
+                                    <div class="p-4 mb-4 alert alert-danger mt-3 bg-red-100 text-red-600 rounded-lg">
+                                        <ul>
+                                            @foreach ($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                @endif
                                 <div class="flex flex-col">
                                     @foreach($records as $record)
                                     <input type="hidden" value="{{ $record->id }}" name="record_id">

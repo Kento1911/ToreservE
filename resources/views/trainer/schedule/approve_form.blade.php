@@ -72,6 +72,15 @@
                         <div>
                             <label class="block text-gray-700" for="">コメント</label>
                             <div class="flex justify-center">
+                                @if ($errors->any())
+                                    <div class="p-4 mb-4 alert alert-danger mt-3 bg-red-100 text-red-600 rounded-lg">
+                                        <ul>
+                                            @foreach ($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                @endif
                                 <textarea name="comment" class="w-full border border-teal-500 rounded-lg block" id="" cols="30" rows="10" required placeholder="実施場所、注意事項等を記入願います。"></textarea>
                             </div>
                         </div>

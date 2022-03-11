@@ -117,7 +117,7 @@ class ReserveController extends Controller
      * @return integer day
      * @return integer month
      */
-    public function reserve_confirm(Request $request)
+    public function reserve_confirm(ScheduleRequest $request)
     {
         $plan = Plan::where('id',$request->plan_id)->first();
         $time = Time::where('id',$request->time)->first();
@@ -129,7 +129,6 @@ class ReserveController extends Controller
         $day = $daydata->day;
         $month = $daydata->month;
 
-        $request->session()->regenerateToken();
 
         return view('user.reserve.reserve_confirm',compact('plan','time','area','comment','daydata','day','month'));
     }
@@ -166,7 +165,6 @@ class ReserveController extends Controller
             $schudule->save();
         });
 
-        $request->session()->regenerateToken();
         
         return view('user.reserve.message');
     }
